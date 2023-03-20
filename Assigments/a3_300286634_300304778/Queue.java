@@ -13,5 +13,8 @@ public interface Queue<E> {
 	void enqueue(E newElement);
 
 	E dequeue();
-}
 
+	E peek();
+
+	int size();
+}

@@ -1,4 +1,3 @@
-package Labs.lab3_300286634;
 public class Rational {
 
     private int numerator;
