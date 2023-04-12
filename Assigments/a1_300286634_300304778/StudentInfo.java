@@ -14,16 +14,6 @@ public class StudentInfo {
     */
 
     public static void display() {
-
-        System.out.println("************************************************************");
-        System.out.println("* Martin Patrouchev                                        *");
-        System.out.println("* 300286634                                                *");
-        System.out.println("* A00                                                      *");
-        System.out.println("*                                                          *");
-        System.out.println("* Jayden Pyne                                              *");
-        System.out.println("* 300304778                                                *");
-        System.out.println("* A00                                                      *");
-        System.out.println("************************************************************");
         System.out.println();
 
     }

@@ -28,7 +28,7 @@ public class CapacityOptimizer {
 				System.out.println("Simulation run " + (i+1) + " (" + (endTime-startTime) + "ms);" + " Queue length at the end of the simulation run: " + sim.getIncomingQueueSize());
 			}
 			// Check if the average queue length of 10 simulation as size n is less than 5
-			if ((avgQueueLength = avgQueueLength/NUM_RUNS) <= THRESHOLD){
+			if ((avgQueueLength/NUM_RUNS) <= THRESHOLD){
 				return n;
 			}
 			System.out.println("");
